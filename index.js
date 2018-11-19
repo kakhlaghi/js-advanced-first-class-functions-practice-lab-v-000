@@ -6,5 +6,5 @@ function logDriverNames(someArray) {
 }
 
 function logDriversByHometown(drivers, hometown) {
-  return drivers.sort(fucntion(driver))
+  return drivers.sort(fucntion(driver, hometown))
 }
