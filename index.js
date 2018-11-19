@@ -1,6 +1,6 @@
 // Code your solution in this file!
 const logDriverNames = function (someArray) {
-  return someArray.forEach(function(item){
+   someArray.forEach(function(item){
     console.log(item.name)
     })
 }
