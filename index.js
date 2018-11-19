@@ -1,14 +1,14 @@
 // Code your solution in this file!
 const logDriverNames = function (someArray) {
    someArray.forEach(function(item){
-    console.log(item.name)
+    console.log(item.name);
     })
 }
 
 const logDriversByHometown = function (drivers, hometown) {
    drivers.forEach(fucntion(driver, hometown){
     if (driver.hometown == hometown){
-      console.log(driver.name)
+      console.log(driver.name);
     }
   })
 }
