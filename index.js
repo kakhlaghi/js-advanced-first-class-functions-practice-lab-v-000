@@ -20,14 +20,14 @@ const driversByRevenue = function (drivers){
 }
 
 const driversByName = function (drivers) {
-  return drivers.slice().sort(function (driverOne, driverTwo) {
-    return driverOne.name.localeCompare(driverTwo.name);
+  return drivers.slice().sort(function (a, b) {
+    return a.name.localeCompare(b.name);
   });
 };
 
 const totalRevenue = function (drivers) {
-  return drivers.reduce(function (total, currentDriver) {
-    return currentDriver.revenue + total;
+  return drivers.reduce(function (total, driver) {
+    return driver.revenue + total;
   }, 0);
 };
 
