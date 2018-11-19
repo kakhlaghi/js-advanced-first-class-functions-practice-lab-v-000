@@ -4,3 +4,5 @@ function logDriverNames(someArray) {
     console.log(item.name)
     })
 }
+
+function logDriversByHometown
