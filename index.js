@@ -5,4 +5,4 @@ function logDriverNames(someArray) {
     })
 }
 
-function logDriversByHometown
+function logDriversByHometown()
