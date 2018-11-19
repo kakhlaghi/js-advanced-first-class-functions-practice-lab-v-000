@@ -5,4 +5,6 @@ function logDriverNames(someArray) {
     })
 }
 
-function logDriversByHometown(hometown)
+function logDriversByHometown(hometown) {
+  return 
+}
