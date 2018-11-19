@@ -12,3 +12,5 @@ const logDriversByHometown = function (drivers, hometown) {
     }
   });
 };
+
+const driversByRevenue = function (
